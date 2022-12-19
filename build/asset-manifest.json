@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9d122282.css",
+    "main.js": "/static/js/main.7b368184.js",
+    "static/media/bg.png": "/static/media/bg.3d421b1b5682e1b67deb.png",
+    "static/media/gallery01.JPG": "/static/media/gallery01.38fece1b81e6b0b6e6a5.JPG",
+    "static/media/findus.png": "/static/media/findus.585c393ccd3671513743.png",
+    "static/media/products.mp4": "/static/media/products.1eb5cc18506de50a398f.mp4",
+    "static/media/menu.png": "/static/media/menu.a8287c67809afebcc280.png",
+    "static/media/DCC2.png": "/static/media/DCC2.d3fe0dd350d0e7d37c85.png",
+    "static/media/carl.png": "/static/media/carl.3d7a4ec91c0b08f3862f.png",
+    "static/media/DCC3.png": "/static/media/DCC3.13fe0cc05a283e54e2ac.png",
+    "static/media/gallery04.jpg": "/static/media/gallery04.0b5f197f123579638b71.jpg",
+    "static/media/gallery02.jpg": "/static/media/gallery02.f1c69c17ab78506ca3c2.jpg",
+    "static/media/overlaybg.png": "/static/media/overlaybg.165362eea72d1614ae28.png",
+    "static/media/gallery06.jpg": "/static/media/gallery06.20caab8dc1b2c39139a2.jpg",
+    "static/media/gallery03.jpeg": "/static/media/gallery03.55da059a78b6e76bc1b8.jpeg",
+    "static/media/gallery07.jpg": "/static/media/gallery07.1ca6a5092bf6c54ca5b4.jpg",
+    "static/media/gallery05.jpg": "/static/media/gallery05.7d39f72b1681ea74f8c1.jpg",
+    "static/media/award02.png": "/static/media/award02.8bbdd51499739653b003.png",
+    "static/media/separator.png": "/static/media/separator.31f8a9d74325308aba95.png",
+    "static/media/award05.png": "/static/media/award05.48a7f5206184009dcb29.png",
+    "static/media/award01.png": "/static/media/award01.361a4bc44b59b55abeda.png",
+    "static/media/award03.png": "/static/media/award03.3f7ee934c17dccbd5fc6.png",
+    "index.html": "/index.html",
+    "main.9d122282.css.map": "/static/css/main.9d122282.css.map",
+    "main.7b368184.js.map": "/static/js/main.7b368184.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d122282.css",
+    "static/js/main.7b368184.js"
+  ]
+}
