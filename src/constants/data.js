@@ -14,7 +14,7 @@ const produits = [
   {
     title: 'ImaGin Vert - Le Forestier',
     price: '$23',
-    tags: 'Gin où le genièvre est soutenu par des arômes de thuya et de sapin Baumier',
+    tags: 'Gin où le genièvre est soutenu par des arômes de thuya et de sapin baumier',
   },
   {
     title: 'ImaGin Rouge - Fruit des rosiers sauvages',
@@ -24,7 +24,7 @@ const produits = [
   {
     title: 'Vodka Drakkar',
     price: '$23',
-    tags: 'Délicate et souple, elle est élaborée avec une eau puisée dans le piedmont des Chic-Chocs',
+    tags: 'Délicate et souple, elle est élaborée avec une eau puisée dans le piémont des Chic-Chocs',
   },
 ];
 

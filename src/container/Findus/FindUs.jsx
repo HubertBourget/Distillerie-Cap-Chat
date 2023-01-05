@@ -11,7 +11,7 @@ const FindUs = () => (
       <div className="app__wrapper-content">
         <p className="p__opensans">Distillerie Cap-Chat se situe directement sur la route 132, face à la mer, tout près de la Halte municipale de Cap-Chat.</p>
         <p className="p__cormorant" style={{ color: '#DCCA87', margin: '2rem 0' }}>Heures d'ouverture</p>
-        <p className="p__opensans">Nous sommes ouvert tous les jours de 12h00 à 18h00</p>
+        <p className="p__opensans">Nous sommes ouvert tous les jours de 12h00 à 17h00</p>
         <p className="p__cormorant" style={{ color: '#DCCA87', margin: '2rem 0' }}>Téléphone</p>
         <p className="p__opensans">1-418-786-0202</p>
       </div>
