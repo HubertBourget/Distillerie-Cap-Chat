@@ -18,7 +18,7 @@ const Chef = () => (
           <img src={images.quote} alt="quote_image" />
           <p className="p__opensans">Pour nous, créer des spiritueux fins se décrit par la fierté de bien faire les choses.</p>
         </div>
-        <p className="p__opensans">Alliant passion, savoir faire et innovation à la distillation, notre désir est de vous proposer des alcools distinctifs composés d'ingrédients naturels et sauvages issus de notre environnement et élaborés avec à une eau pure puisée dans le piémont des Chic-Chocs.</p>
+        <p className="p__opensans">Alliant passion, savoir-faire et innovation à la distillation, notre désir est de vous proposer des alcools distinctifs composés d'ingrédients naturels et sauvages issus de notre environnement et élaborés avec une eau pure puisée dans le piémont des Chic-Chocs.</p>
       </div>
 
       <div className="app__chef-sign">

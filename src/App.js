@@ -1,22 +1,20 @@
-import React from 'react';
+import Main from "./main";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {MenuYannick } from './container'
 
-import { AboutUs, Carl, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
-import { Navbar } from './components';
-import './App.css';
 
-const App = () => (
-  <div>
-    <Navbar />
-    <Header />
-    <AboutUs />
-    <SpecialMenu />
-    <Carl />
-    <Intro />
-    {/* <Laurels /> */}   {/* Section for later when the distillery get some awards */}
-    <Gallery />
-    <FindUs />
-    <Footer />
-  </div>
-);
+function App() {
+
+  return (
+    
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main/>} />
+        <Route path="/YannickOuellet" element={<MenuYannick/>} />
+      </Routes>
+      </BrowserRouter>
+    
+  );
+}
 
 export default App;

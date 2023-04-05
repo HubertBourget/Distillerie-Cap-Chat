@@ -16,6 +16,7 @@ const Navbar = () => {
         <li className="p__opensans"><a href="#about">La distillerie</a></li>
         <li className="p__opensans"><a href="#menu">Nos produits</a></li>
         <li className="p__opensans"><a href="#gallery">Galerie</a></li>
+        <li className="p__opensans"><a href="https://distilleriecapchat.com/YannickOuellet">Cocktails</a></li>
         
       </ul>
       <div className="app__navbar-login">

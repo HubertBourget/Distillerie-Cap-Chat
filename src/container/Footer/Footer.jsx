@@ -9,7 +9,6 @@ const Footer = () => (
   <div className="app__footer section__padding" id="login">
     <FooterOverlay />
     <div className='app_footer-form-container'>
-      <Newsletter /> 
     </div>
     
 
@@ -22,7 +21,7 @@ const Footer = () => (
 
       <div className="app__footer-links_logo">
         <img src={images.logo} alt="footer_logo" />
-        <p className="p__opensans">&quot;Des Spiritueux d'ici fabriqués avec les plantes boréales de notre région&quot;</p>
+        <p className="p__opensans">&quot;Des Spiritueux fabriqués avec les plantes boréales de notre région&quot;</p>
         <img src={images.separator} className="separator__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
           
@@ -40,7 +39,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">2022 Distillerie Cap-Chat. Tous droit réservés.</p>
+      <p className="p__opensans">2023 Distillerie Cap-Chat. Tous droits réservés.</p>
       <p className="p__opensans"></p>
     </div>
 
