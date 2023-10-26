@@ -20,7 +20,7 @@ const Footer = () => (
       </div>
 
       <div className="app__footer-links_logo">
-        <img src={images.logo} alt="footer_logo" />
+        <img src={images.logoDistillerieBlanc} alt="footer_logo" />
         <p className="p__opensans">&quot;Des Spiritueux fabriqués avec les plantes boréales de notre région&quot;</p>
         <img src={images.separator} className="separator__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
@@ -33,8 +33,7 @@ const Footer = () => (
 
       <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Heures d'ouverture</h1>
-        <p className="p__opensans">Tous les jours:</p>
-        <p className="p__opensans">12:00 - 17:00</p>
+        <p className="p__opensans">Hiver : Du 1er octobre au 15 juin <br></br> Tous les jours de 10h00 à 17h00. <br></br><br></br> Été : 16 juin au 30 septembre <br></br> Tous les jours de 10h00 à 18h00.</p>
       </div>
     </div>
 

@@ -11,7 +11,7 @@ import quote from '../assets/quote.png';
 import DCC2 from '../assets/DCC2.png';
 import DCC3 from '../assets/DCC3.png';
 import separator from '../assets/separator.png';
-import signature from '../assets/Signature.png';
+import signature from '../assets/Signature1.png';
 import carl from '../assets/carl.png';
 import gallery01 from '../assets/gallery01.JPG';
 import gallery02 from '../assets/gallery02.jpg';
@@ -20,7 +20,12 @@ import gallery04 from '../assets/gallery04.jpg';
 import gallery05 from '../assets/gallery05.jpg';
 import gallery06 from '../assets/gallery06.jpg';
 import gallery07 from '../assets/gallery07.jpg';
-
+import ImaGin5 from '../assets/ImaGin5.png';
+import EauxDeVie from '../assets/EauxDeVie.jpg';
+import Liqueures from '../assets/Liqueures.jpg';
+import PEB from '../assets/PEB.png';
+import signature2 from '../assets/signature2.png';
+import logoDistillerieBlanc from '../assets/logo_distillerie_blanc.png'
 
 export default {
   logo,
@@ -45,4 +50,10 @@ export default {
   award03,
   award05,
   quote,
+  ImaGin5,
+  EauxDeVie,
+  Liqueures,
+  PEB,
+  signature2,
+  logoDistillerieBlanc,
 };

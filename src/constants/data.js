@@ -22,6 +22,11 @@ const produits = [
     tags: 'Gin concu avec le fruit des rosiers sauvages cueilli en bordure de mer en Gaspésie, révèlant des arômes fruités d\'églantier et de subtiles notes marines',
   },
   {
+    title: 'ImaGin Gris - Classique pin gris',
+    price: '$24',
+    tags: 'Gin très aromatique présentant des notes délicates de pin gris.',
+  },
+  {
     title: 'Vodka Drakkar',
     price: '$24',
     tags: 'Délicate et souple, élaborée avec une eau puisée dans le piémont des Chic-Chocs',

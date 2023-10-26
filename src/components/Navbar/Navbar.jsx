@@ -3,20 +3,21 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import images from '../../constants/images';
 import './Navbar.css';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.logo} alt="app__logo" />
+        <img src={images.logoDistillerieBlanc} alt="app__logo" />
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Accueil</a></li>
         <li className="p__opensans"><a href="#about">La distillerie</a></li>
         <li className="p__opensans"><a href="#menu">Nos produits</a></li>
         <li className="p__opensans"><a href="#gallery">Galerie</a></li>
-        <li className="p__opensans"><a href="https://distilleriecapchat.com/YannickOuellet">Cocktails</a></li>
+        <li className="p__opensans"><Link to="/YannickOuellet">Cocktails</Link></li>
         
       </ul>
       <div className="app__navbar-login">
