@@ -4,7 +4,7 @@ import { SubHeading } from '../../components';
 import { images } from '../../constants';
 import './Gallery.css';
 
-const Gallery = () => {
+const Gallery = ({ lang = 'fr' }) => {
   const scrollRef = React.useRef(null);
 
   const scroll = (direction) => {
@@ -17,13 +17,31 @@ const Gallery = () => {
     }
   };
 
+  // Translations
+  const translations = {
+    en: {
+      joinUs: "Join Us on Facebook",
+      galleryTitle: "Gallery",
+      description: "We're thrilled to welcome you to the distillery! We look forward to sharing with you the world of distillation and the creation of our spirits as this exciting adventure unfolds!",
+      discoverUs: "Discover Us",
+    },
+    fr: {
+      joinUs: "Rejoignez-nous sur Facebook",
+      galleryTitle: "Galerie",
+      description: "Nous sommes très heureux de vous accueillir à la distillerie! Nous comptons partager avec vous l'univers de la distillation et de la création de nos spiritueux au fur et à mesure de l'évolution de cette passionnante aventure!",
+      discoverUs: "Découvrez-nous",
+    }
+  };
+
+  const { joinUs, galleryTitle, description, discoverUs } = translations[lang];
+
   return (
     <div className="app__gallery flex__center" id="gallery">
       <div className="app__gallery-content">
-        <a target="_blank" href="https://www.facebook.com/profile.php?id=100087940557668"><SubHeading title="Rejoignez-nous sur Facebook" /></a>
-        <h1 className="headtext__cormorant">Galerie</h1>
-        <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Nous sommes très heureux de vous accueillir à la distillerie! Nous comptons partager avec vous l'univers de la distillation et de la création de nos spiritueux au fur et à mesure de l'évolution de cette passionnante aventure!</p>
-        <a target="_blank" href="https://www.facebook.com/profile.php?id=100087940557668"><button type="button" className="custom__button">Découvrez-nous</button></a>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100087940557668"><SubHeading title={joinUs} /></a>
+        <h1 className="headtext__cormorant">{galleryTitle}</h1>
+        <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>{description}</p>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100087940557668"><button type="button" className="custom__button">{discoverUs}</button></a>
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>

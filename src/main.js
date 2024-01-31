@@ -4,18 +4,18 @@ import { AboutUs, Carl, FindUs, Footer, Gallery, Header, Intro, Laurels, Special
 import { Navbar } from './components';
 import './App.css';
 
-const Main = () => (
+const Main = ({ lang }) => (
     <div>
-        <Navbar />
-        <Header />
-        <AboutUs />
-        <SpecialMenu />
-        <Carl />
-        <Intro />
-        {/* <Laurels /> */}   {/* Section for later when the distillery get some awards */}
-        <Gallery />
-        <FindUs />
-        <Footer />
+        <Navbar lang={lang} />
+        <Header lang={lang} />
+        <AboutUs lang={lang} />
+        <SpecialMenu lang={lang} />
+        <Carl lang={lang} />
+        <Intro lang={lang} />
+        {/* <Laurels lang={lang} /> */}  {/* Section for later when the distillery get some awards */}
+        <Gallery lang={lang} />
+        <FindUs lang={lang} />
+        <Footer lang={lang} />
     </div>
 );
 

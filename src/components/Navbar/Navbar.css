@@ -15,7 +15,7 @@
 }
 
 .app__navbar-logo img {
-    width: 150px;
+    width: 20vw;
 }
 
 .app__navbar-links {
@@ -130,4 +130,19 @@
     .app__navbar-logo img {
         width: 110px;
     }
+}
+
+.app__navbar-langtoggle button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    /* Remove padding if necessary */
+}
+
+.app__navbar-langtoggle button img {
+    max-width: 3vw;
+    /* Maximum width of 3% of the viewport width */
+    height: auto;
+    /* Maintain aspect ratio */
 }
