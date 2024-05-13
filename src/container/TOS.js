@@ -401,7 +401,7 @@ const TOS = () => {
       </main>
       <footer>
         <p>
-          <br></br>© 2023 Distillerie Cap-Chat. Tous droits réservés.
+          <br></br>© 2024 Distillerie Cap-Chat. Tous droits réservés.
         </p>
       </footer>
     </div>

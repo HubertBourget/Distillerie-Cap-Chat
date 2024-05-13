@@ -70,8 +70,18 @@ const Navbar = ({ lang = 'fr' }) => {
               <li><a href="#home" onClick={() => setToggleMenu(false)}>{t.home}</a></li>
               <li><a href="#about" onClick={() => setToggleMenu(false)}>{t.distillery}</a></li>
               <li><a href="#menu" onClick={() => setToggleMenu(false)}>{t.products}</a></li>
+              <li><a href="#gallery" onClick={() => setToggleMenu(false)}>{t.gallery}</a></li>
+              <li><Link to="/yannickouellet" onClick={() => setToggleMenu(false)}>{t.cocktails}</Link></li>
               <li><a href="#contact" onClick={() => setToggleMenu(false)}>{t.contact}</a></li>
               <li><a href="#reservation" onClick={() => setToggleMenu(false)}>{t.book}</a></li>
+              <li className="app__navbar-langtoggle">
+                <button onClick={() => {
+                  toggleLanguage();
+                  setToggleMenu(false);
+                }}>
+                  <img src={lang === 'fr' ? englishFlag : frenchFlag} alt={lang === 'fr' ? 'English' : 'French'} />
+                </button>
+              </li>
             </ul>
           </div>
         )}

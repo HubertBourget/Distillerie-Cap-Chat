@@ -140,9 +140,9 @@
     /* Remove padding if necessary */
 }
 
-.app__navbar-langtoggle button img {
-    max-width: 3vw;
-    /* Maximum width of 3% of the viewport width */
-    height: auto;
-    /* Maintain aspect ratio */
+.app__navbar-langtoggle img {
+  width: 40px; /* Adjusts the width */
+  height: auto; /* Keeps the aspect ratio intact */
+  display: block; /* Helps remove any unwanted space around the image */
+  margin: 0 auto; /* Centers the image within the button */
 }
