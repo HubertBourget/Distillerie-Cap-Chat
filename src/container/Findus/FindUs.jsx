@@ -17,6 +17,8 @@ const FindUs = ({ lang = 'fr' }) => {
       dailyHoursSummer: "Every day from 10:00 AM to 6:00 PM.",
       phone: "Phone",
       phoneNumber: "1-418-786-0202",
+      openingInvitation:"Open to everyone without reservation",
+      invitationDetails: "You can book an interpretive tour with us for $10 per person. A group must have at least five people.",
     },
     fr: {
       contact: "Contact",
@@ -29,23 +31,28 @@ const FindUs = ({ lang = 'fr' }) => {
       dailyHoursSummer: "Tous les jours de 10h00 à 18h00.",
       phone: "Téléphone",
       phoneNumber: "1-418-786-0202",
+      openingInvitation:"Ouvert a tous sans réservation",
+      invitationDetails: "Vous pouvez réserver une visite d'interprétation avec nous pour 10$ par personne. Un groupe doit compter au moins cinq personnes.",
     }
   };
 
-  const { contact, locationHeading, locationDescription, openingHours, winterHours, summerHours, dailyHoursWinter, dailyHoursSummer, phone, phoneNumber } = translations[lang];
+  const { contact, locationHeading, locationDescription, openingHours, openingInvitation, winterHours, summerHours, invitationDetails, dailyHoursWinter, dailyHoursSummer, phone, phoneNumber } = translations[lang];
 
   return (
     <div className="app__bg app__wrapper section__padding" id="contact">
       <div className="app__wrapper_info">
         <SubHeading title={contact} />
+        
         <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }}>{locationHeading}</h1>
         <div className="app__wrapper-content">
           <p className="p__opensans">{locationDescription}</p>
+          <p className="p__cormorant" style={{ color: '#DCCA87', margin: '2rem 0' }}>{openingInvitation}</p>
+          <p className="p__opensans">{invitationDetails}</p>
           <p className="p__cormorant" style={{ color: '#DCCA87', margin: '2rem 0' }}>{openingHours}</p>
-          <p className="p__opensans">{winterHours}</p>
           <p className="p__opensans">{dailyHoursWinter}</p>
           <p className="p__opensans">{summerHours}</p>
           <p className="p__opensans">{dailyHoursSummer}</p>
+          <p className="p__opensans">{winterHours}</p>
           <p className="p__cormorant" style={{ color: '#DCCA87', margin: '2rem 0' }}>{phone}</p>
           <p className="p__opensans">{phoneNumber}</p>
         </div>

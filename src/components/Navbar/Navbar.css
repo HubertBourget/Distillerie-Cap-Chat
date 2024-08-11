@@ -55,7 +55,6 @@
 .app__navbar-login div {
     width: 1px;
     height: 30px;
-    background: var(--color-grey);
 }
 
 .app__navbar-smallscreen {

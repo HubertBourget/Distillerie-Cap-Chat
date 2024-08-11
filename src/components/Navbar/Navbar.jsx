@@ -16,7 +16,6 @@ const translations = {
     gallery: "Gallery",
     cocktails: "Cocktails",
     contact: "Contact",
-    book: "Book",
   },
   fr: {
     home: "Accueil",
@@ -25,7 +24,6 @@ const translations = {
     gallery: "Galerie",
     cocktails: "Cocktails",
     contact: "Contact",
-    book: "Réservez",
   }
 };
 
@@ -73,7 +71,6 @@ const Navbar = ({ lang = 'fr' }) => {
               <li><a href="#gallery" onClick={() => setToggleMenu(false)}>{t.gallery}</a></li>
               <li><Link to="/yannickouellet" onClick={() => setToggleMenu(false)}>{t.cocktails}</Link></li>
               <li><a href="#contact" onClick={() => setToggleMenu(false)}>{t.contact}</a></li>
-              <li><a href="#reservation" onClick={() => setToggleMenu(false)}>{t.book}</a></li>
               <li className="app__navbar-langtoggle">
                 <button onClick={() => {
                   toggleLanguage();

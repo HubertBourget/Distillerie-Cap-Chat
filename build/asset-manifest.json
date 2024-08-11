@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2956745d.css",
-    "main.js": "/static/js/main.e4dafa73.js",
+    "main.css": "/static/css/main.bcd527fb.css",
+    "main.js": "/static/js/main.55f3b76e.js",
     "static/media/PEB.png": "/static/media/PEB.0227f514e4d3f932b2c2.png",
     "static/media/ImaGin5.png": "/static/media/ImaGin5.b771f549116aacab28f2.png",
     "static/media/bg.png": "/static/media/bg.3d421b1b5682e1b67deb.png",
@@ -23,17 +23,18 @@
     "static/media/gallery07.jpg": "/static/media/gallery07.1ca6a5092bf6c54ca5b4.jpg",
     "static/media/gallery05.jpg": "/static/media/gallery05.7d39f72b1681ea74f8c1.jpg",
     "static/media/logo_distillerie_blanc.png": "/static/media/logo_distillerie_blanc.e4a2085e367ff399ce9e.png",
+    "static/media/signature2.png": "/static/media/signature2.ba073b4822cf1138e33e.png",
     "static/media/award02.png": "/static/media/award02.8bbdd51499739653b003.png",
     "static/media/separator.png": "/static/media/separator.31f8a9d74325308aba95.png",
     "static/media/award05.png": "/static/media/award05.48a7f5206184009dcb29.png",
     "static/media/award01.png": "/static/media/award01.361a4bc44b59b55abeda.png",
     "static/media/award03.png": "/static/media/award03.3f7ee934c17dccbd5fc6.png",
     "index.html": "/index.html",
-    "main.2956745d.css.map": "/static/css/main.2956745d.css.map",
-    "main.e4dafa73.js.map": "/static/js/main.e4dafa73.js.map"
+    "main.bcd527fb.css.map": "/static/css/main.bcd527fb.css.map",
+    "main.55f3b76e.js.map": "/static/js/main.55f3b76e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2956745d.css",
-    "static/js/main.e4dafa73.js"
+    "static/css/main.bcd527fb.css",
+    "static/js/main.55f3b76e.js"
   ]
 }
